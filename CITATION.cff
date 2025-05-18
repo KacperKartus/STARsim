@@ -1,0 +1,22 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: STARsim
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Kacper
+    family-names: Kartus
+    email: kacper.kartus@gmail.com
+identifiers:
+  - type: url
+    value: 'https://github.com/KacperKartus/STARsim'
+    description: Link to githuhb repository
+abstract: >-
+  STARsim is a simulation model designed to help researchers
+  in air traffic management evaluate concepts related to
+  airspace and control strategies during the arrival
+  process. strategies in the arrival process. 
