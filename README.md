@@ -4,10 +4,10 @@ STARsim is a simulation model for air traffic in the vicinity of the airport, fo
 
 ## Description
 
-The model was created to evaluate and test concepts in arrival traffic managment, in particular control strategies 
-and STAR procedures topologies. The simulations happen in the environmet automatically created from the data on 
+The model was created to evaluate and test concepts in arrival traffic management, in particular control strategies 
+and STAR procedures topologies. The simulations happen in the environment automatically created from the data on 
 airport and STAR procedures provided by the user. Outcome of simulation comes in the form of statistics regarding 
-network performance, aircraft positional data or as a visualisation of a run. The implemetation is mostly written in 
+network performance, aircraft positional data or as a visualisation of a run. The implementation is mainly written in 
 Python with small bits of JavaScript for visualisations.
 
 ## Getting Started
@@ -35,12 +35,12 @@ Python with small bits of JavaScript for visualisations.
 
 ### Executing program
   1. Change directory to the project root
-  2. run STARsim_starter.py passing appropriate argument as flags
+  2. Run STARsim_starter.py, passing the appropriate arguments as flags
   ```
   python STARsim/STARsim_starter.py -<flag><arg>
   ```
 ###Examples:
-* To run five simulations in one of the set-ups used in my Master Thesis, run (from project root directory):
+* To run five simulations in one of the setups used in my Master's Thesis, run (from project root directory):
     ```
     python STARsim/STARsim_starter.py -T 01:30:00 -D data_c -N 5 -v 2,4 -s stats -i initial.csv
   ```
