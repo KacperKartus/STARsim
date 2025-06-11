@@ -19,11 +19,11 @@ Python with small bits of JavaScript for visualisations.
 ### Setting up the environment
 1. Clone the repository into a working directory on your machine
 2. Create a virtual environment and install required packages:
-    * If using conda use file environment.yaml  with:
+    * If using conda, use file environment.yaml  with:
       ```
       conda env create -f environment.yml
       ```
-    * if using pip use requirements.txt:
+    * If using pip, use requirements.txt:
        ```
       cd YourWorkingDirectory/STARsim
       python -m venv STARsimEnv 
@@ -42,17 +42,17 @@ Python with small bits of JavaScript for visualisations.
 ###Examples:
 * To run five simulations in one of the set-ups used in my Master Thesis, run (from project root directory):
     ```
-    python STARsim/STARsim_starter.py -T 01:30:00 -D data_c -N 5 -V 2,4 -s stats -i initial.csv
+    python STARsim/STARsim_starter.py -T 01:30:00 -D data_c -N 5 -v 2,4 -s stats -i initial.csv
   ```
  * To  run five simulations with random initial conditions
     ```
-    python STARsim/STARsim_starter.py -T 01:30:00 -D data_c -N 5 -V 2 -n 5 -s stats
+    python STARsim/STARsim_starter.py -T 01:30:00 -D data_c -N 5 -v 2 -n 5 -s stats
      ```
-Thes statistics form the runs will be saved to a file stats.pickle in the wd.
-THE VISUALISING PART TAKES A WHILE, SO WHEN TERMINAL STOPS PRINTING GIVE IT A MINUTE! 
+These statistics from the runs will be saved to a file stats.pickle in the wd.
+THE VISUALISING PART TAKES A WHILE, SO WHEN TERMINAL STOPS PRINTING, GIVE IT A MINUTE! 
 ## Help
 
-For info on arguments run:
+For info on arguments, run:
 ```
   python STARsim/STARsim_starter.py -h
 ```
